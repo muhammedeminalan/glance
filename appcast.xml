@@ -3,6 +3,21 @@
     <channel>
         <title>glance</title>
         <item>
+            <title>1.2.4</title>
+            <pubDate>Wed, 25 Nov 2026 18:40:59 +0300</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Yenilikler</h3>
+<ul>
+  <li><b>Uygulama Kilidi:</b> Seçtiğiniz uygulamalar (ör. WhatsApp, Notlar, Fotoğraflar) öne geldiğinde ekran bulanıklaşır; yüzünüz tanınınca ya da Touch ID / Mac parolanızla açılır. Ayarlar → Uygulama Kilidi sekmesinden uygulama ekleyin.</li>
+  <li><b>Tekrar kilitleme seçimi:</b> Uygulama kapanınca (varsayılan), başka uygulamaya geçince 5 dk sonra ya da her öne gelişte. Mac kilitlenince tüm uygulamalar yeniden kilitlenir.</li>
+  <li>Uygulama Kilidi meraklı gözlere karşı bir korumadır; bildirim içeriklerini gizlemez.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/muhammedeminalan/glance/releases/download/v1.2.4/Glance.dmg" length="13211911" type="application/octet-stream" sparkle:edSignature="BN95+5AkVGj/qrGBInjSSkTrUXSIzvT0ucg8uGs7rdwgE2pnXGWTg4mfRo07yyizrTf17AzPp6Kv5h02P+YGCg=="/>
+        </item>
+        <item>
             <title>1.2.3</title>
             <pubDate>Wed, 25 Nov 2026 18:06:50 +0300</pubDate>
             <sparkle:version>7</sparkle:version>
