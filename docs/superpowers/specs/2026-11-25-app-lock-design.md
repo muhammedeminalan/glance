@@ -22,7 +22,7 @@ Kullanıcının seçtiği uygulamalar (WhatsApp, Notlar, Fotoğraflar…) öne g
   - `markUnlocked`, `markActivated` (5 dk sayacını sıfırlar), `markDeactivated`, `markTerminated`, `lockAll`.
 - **`AppLockMonitor`** (`NSObject`, `@MainActor`): `NSWorkspace` öne geldi / arka plana geçti / kapandı bildirimleri, `com.apple.screenIsLocked` ve uyku bildirimi. Kendi uygulamamızın öne gelmesi yok sayılır. Doğrulama sürerken başka bir uygulama öne gelirse doğrulama iptal edilir ve kilitli uygulama gizlenir. Glance açılırken öndeki uygulama da kontrol edilir.
 - **`FaceVerifier`** (`@MainActor`): oturum kilitliyse ya da kayıtlı yüz yoksa `.unavailable`; değilse kamerayı açar, ≤5 sn boyunca tanıma + canlılık döngüsü (`GlanceSettings` eşik/canlılık ayarlarıyla) → `.matched` / `.notRecognized`.
-- **`AppLockOverlayController`**: her ekrana `.screenSaver` seviyesinde, tüm Spaces'te görünen, kenarlıksız bir pencere. Denetimler ana ekranda; diğer ekranlarda yalnız bulanıklık. Durumlar: tarıyor, tanınmadı, doğrulanıyor, Touch ID gerekli. Düğmeler: **Touch ID ile aç**, **Yeniden dene** (tanınmadıysa), **Vazgeç**.
+- **`AppLockOverlayController`**: her ekrana `.floating` seviyesinde (Touch ID / parola penceresi üstünde görünebilsin diye), tüm Spaces'te görünen, kenarlıksız bir pencere. Denetimler ana ekranda; diğer ekranlarda yalnız bulanıklık. Durumlar: tarıyor, tanınmadı, doğrulanıyor, Touch ID gerekli. Düğmeler: **Touch ID ile aç**, **Yeniden dene** (tanınmadıysa), **Vazgeç**.
 - Akış: eşleşirse kilit açılır → örtü kapanır → uygulama öne getirilir. `.unavailable` → doğrudan Touch ID istenir. Touch ID başarısızsa "tanınmadı" durumuna döner.
 
 ## Bölüm 2 — Ayarlar, metinler, test
