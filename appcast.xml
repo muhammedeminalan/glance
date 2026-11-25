@@ -3,6 +3,20 @@
     <channel>
         <title>glance</title>
         <item>
+            <title>1.2.5</title>
+            <pubDate>Wed, 25 Nov 2026 18:54:06 +0300</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Düzeltmeler</h3>
+<ul>
+  <li><b>Uygulama Kilidi sürekli parola istiyordu:</b> Parola penceresi açılınca kilit kendini iptal ediyordu. Artık parolayı girince uygulama açılıyor.</li>
+  <li><b>Yeniden başlatma sonrası:</b> Uygulama Kilidi'nde girilen parola Glance'in oturumunu da açıyor; sonraki açılışlarda yine yüzle açılıyor.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/muhammedeminalan/glance/releases/download/v1.2.5/Glance.dmg" length="13213862" type="application/octet-stream" sparkle:edSignature="z8cAJ0Mx6f9uDV1RcnqvgJe+h/z3TWaPDFOxT+AdjnPnlsLecc71jlGYRWsPHxHVAkzq53q2Q7HVMip/XrM2Ag=="/>
+        </item>
+        <item>
             <title>1.2.4</title>
             <pubDate>Wed, 25 Nov 2026 18:40:59 +0300</pubDate>
             <sparkle:version>8</sparkle:version>
@@ -31,14 +45,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/muhammedeminalan/glance/releases/download/v1.2.3/Glance.dmg" length="13129574" type="application/octet-stream" sparkle:edSignature="/epVUCTkK5xZqSCgcI8X3jfBm2XS6kipZBBRAYUYVfY8i1mqX4aOaSJhX40YKc4WbW6E71uwtULrbr0X51XwAA=="/>
-        </item>
-        <item>
-            <title>1.2.2</title>
-            <pubDate>Wed, 25 Nov 2026 14:33:28 +0300</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/muhammedeminalan/glance/releases/download/v1.2.2/Glance.dmg" length="13077191" type="application/octet-stream" sparkle:edSignature="H2f78Yo+cwVqsih7wncH/JdMToqh8tX//RINqmdHDHveblp2fDYF6n6lkNYJyvJp1l1AQzeQR18QSBNNJ+hcDQ=="/>
         </item>
     </channel>
 </rss>
