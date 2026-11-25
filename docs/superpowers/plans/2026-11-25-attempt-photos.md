@@ -85,7 +85,7 @@ enum AttemptLogSelfTest {
 
         if let source = CGImageSourceCreateWithURL(first.url as CFURL, nil),
            let props = CGImageSourceCopyPropertiesAtIndex(source, 0, nil) as? [CFString: Any],
-           let width = props[kCGImagePixelWidth] as? Int, let height = props[kCGImagePixelHeight] as? Int {
+           let width = props[kCGImagePropertyPixelWidth] as? Int, let height = props[kCGImagePropertyPixelHeight] as? Int {
             check(max(width, height) <= 1280, "JPEG longest edge <= 1280 (got \(width)x\(height))")
         } else {
             check(false, "JPEG is readable")
