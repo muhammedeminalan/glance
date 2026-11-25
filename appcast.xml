@@ -3,6 +3,21 @@
     <channel>
         <title>glance</title>
         <item>
+            <title>1.2.3</title>
+            <pubDate>Wed, 25 Nov 2026 18:06:50 +0300</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Yenilikler</h3>
+<ul>
+  <li><b>Başarısız deneme fotoğrafları:</b> Biri Mac'inizin kilidini açmaya çalışıp tanınmazsa ya da bir fotoğrafla kandırmaya çalışırsa, o anın fotoğrafı ve saati kaydedilir. Listeyi Ayarlar → Denemeler sekmesinde görebilirsiniz.</li>
+  <li><b>Menü çubuğu uyarısı:</b> Siz yokken deneme olduysa Glance simgesinin yanında deneme sayısı görünür.</li>
+  <li>Fotoğraflar sadece bu Mac'te saklanır; en fazla son 50 deneme tutulur. Özellik Denemeler sekmesinden kapatılabilir.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/muhammedeminalan/glance/releases/download/v1.2.3/Glance.dmg" length="13129574" type="application/octet-stream" sparkle:edSignature="/epVUCTkK5xZqSCgcI8X3jfBm2XS6kipZBBRAYUYVfY8i1mqX4aOaSJhX40YKc4WbW6E71uwtULrbr0X51XwAA=="/>
+        </item>
+        <item>
             <title>1.2.2</title>
             <pubDate>Wed, 25 Nov 2026 14:33:28 +0300</pubDate>
             <sparkle:version>6</sparkle:version>
