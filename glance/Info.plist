@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>SUFeedURL</key>
-	<string>https://tryglance.app/appcast.xml</string>
+	<string>https://raw.githubusercontent.com/muhammedeminalan/glance/main/appcast.xml</string>
 	<key>SUPublicEDKey</key>
-	<string>o9uQmlzKzh7NZvFtVktVh/wqw4Ie6WshX8K8NFDweWY=</string>
+	<string>651UITAvjw+idfP03O0VMEtJQKkDTW2A9hYAmmhGqBE=</string>
 	<key>SUAutomaticallyUpdate</key>
 	<false/>
 	<key>SUEnableInstallerLauncherService</key>
